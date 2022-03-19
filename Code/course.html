@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+
+ <link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+a
+{
+    text-decoration: none;
+    color:rgb(36, 76, 109);
+
+}
+.active, a:hover
+
+{
+    background:#1b1b1b;
+    border-radius:3px;
+
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+ body{
+    background-color: rgb(245, 178, 236);
+ }
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.menu{
+
+    width:100%;
+    height:80px;
+    background-color: #336699;
+    margin-top:-20px;
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    background: rgb(155, 46, 155);
+    text-align:center;
+    box-sizing: border-box;
+   
+   
+}
+ h2{
+    color:rgb(238, 227, 227);
+    text-shadow: 2px 2px #0f0f0f;
+    font-size: 40px;
+
+}
+
+
+</style>
+<body>
+   <section id="header">
+      <div class="menu"><H2>
+         Dashboard
+      </H2></div>
+   </section>
+
+
+<div class="galleryContainer">
+    <div class="slideShowContainer">
+        <div id="playPause" onclick="playPauseSlides()"></div>
+        <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+        <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+        <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+        <div class="imageHolder">
+            <img src="slide4.jpg">
+            <p class="captionText" ><a href="https://rb.gy/hrixvz"> courses offered</a></p>
+        </div>
+        <div class="imageHolder">
+            <img src="slide2.jpg">
+            <p class="captionText" > <a href="https://www.shopify.com/blog/crowdfunding-sites" > crowdfunding websites </a></p>
+        </div>
+        <div class="imageHolder">
+            <img src="image3.jpg">
+            <p class="captionText"><a href="https://www.startupindia.gov.in/content/sih/en/government-schemes/Wep.html"> The Women Entrepreneurship Program (WEP)</a></p>
+        </div>
+    </div>
+    <div id="dotsContainer"></div>
+</div>
+<script src="myScript.js"></script>
+
+<div class="main">
+
+ <!--cards -->
+
+
+
+<div class="card">
+
+<div class="image">
+   <img src="leadership.jpg">
+</div>
+<div class="title">
+ <h1>Leadership-skills</h1>
+</div>
+<div class="des">
+ <p class="active"><a href="https://www.learningtree.com/courses/3472/launching-womens-leadership-transformation/" target="_blank"> Read More....</a></p>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWn1b0yHfsoklwt4HrbIh0WHgU0IN9cKxgg&usqp=CAU">
+</div>
+<div class="title">
+ <h1>Finance</h1>
+</div>
+<div class="des">
+ <p class="active"><a href="https://transstadiainstitute.in/course/finance-for-women-entrepreneurs/" target="_balnk">Read More..</a></p>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="marketing.jpg">
+</div>
+<div class="title">
+ <h1>Marketing
+ </h1>
+</div>
+<div class="des">
+ <p class="active"><a href="https://www.udemy.com/course/60-day-female-entrepreneur-start-your-business-in-60-days/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.INDIA&utm_content=deal4584&utm_term=_._ag_82569850245_._ad_533220805577_._kw__._de_c_._dm__._pl__._ti_aud-669140681723:dsa-41250778272_._li_9050516_._pd__._&matchtype=&gclid=CjwKCAiAprGRBhBgEiwANJEY7AodGgdtBxiOIh0lHdASvudNjL0eeHMKxaXPHZ81xjkZWwMOigV-BRoCH5EQAvD_BwE" target="_blank">Read More...</a></p>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="time management.png">
+</div>
+<div class="title">
+ <h1>
+Time Management</h1>
+</div>
+<div class="des">
+ <p class="active"><a href="https://www.udemy.com/topic/time-management/" target="_balnk">Read More...</a></p>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAQT1ZyEkvRq_jSvIkTe20E3RB7iwvvgxw7w&usqp=CAU">
+</div>
+<div class="title">
+ <h1>
+Organization-Skills</h1>
+</div>
+<div class="des">
+ <p class="active"><a href="https://www.udemy.com/course/the-action-map-system-get-life-done/?gclid=CjwKCAiAprGRBhBgEiwANJEY7GBVIs4aHdRhAbZc2QHVQZgZ80Ek_40Zg61x5oO8gqxxr64iZzCh2RoCIG4QAvD_BwE&matchtype=b&utm_campaign=LongTail_la.EN_cc.INDIA&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_78875688203_._ad_533133856995_._kw_%2Borganization+%2Bcourse_._de_c_._dm__._pl__._ti_kwd-671751479674_._li_9050516_._pd__._" target="_blank">Read More...</a></p>
+
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="public speaking.jpg">
+</div>
+<div class="title">
+ <h1>
+Public-Speaking</h1>
+</div>
+<div class="des">
+ <p class="active"><a href="https://www.udemy.com/topic/public-speaking/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.INDIA&utm_content=deal4584&utm_term=_._ag_82569850245_._ad_533220805577_._kw__._de_c_._dm__._pl__._ti_aud-669140681723:dsa-437115340933_._li_9050516_._pd__._&matchtype=&gclid=CjwKCAiAprGRBhBgEiwANJEY7AWG-sUBPhnCK9bvvaFOJc6Q3muXJ2eV6dYbJrbhVl189PNpzOpMgRoCzkwQAvD_BwE" target="_blank">Read More...</a></p>
+</div>
+</div>
+<!--cards -->
+
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="bussiness skills.png">
+</div>
+<div class="title">
+ <h1>
+Bussiness Skills</h1>
+</div>
+<div class="des">
+ <p class="active"><a href="https://www.edx.org/learn/business-skills" target="_blank">Read More...</a></p>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="communications skills.jpg">
+</div>
+<div class="title">
+ <h1>
+Communication-Skills</h1>
+</div>
+<div class="des">
+ <p class="active"><a href="https://www.udemy.com/course/my-brain-and-i/?gclid=CjwKCAiAprGRBhBgEiwANJEY7BiVYqmvQd7EJu9-yu9C7_khMj1rlHYKhSejlyilyz3uXcMQ-Xz1gRoCX50QAvD_BwE&matchtype=e&utm_campaign=LongTail_la.EN_cc.INDIA&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_84769203288_._ad_533133893454_._kw_communication+skills+course_._de_c_._dm__._pl__._ti_kwd-297847380618_._li_9050516_._pd__._" target="_blank">Read More...</a></p>
+
+</div>
+</div>
+</div>
+</body>
+</html>

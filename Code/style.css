@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url("International-Womens-history-month-.png");
+    background-position:center;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: rgb(117, 192, 211);
+    text-align:center;
+    box-shadow:0 5px 15px rgb(37, 39, 38);
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style:none;
+    color: #fff;
+    float:right
+}
+.menu-bar ul li{
+    width:100px;
+    margin:10px;
+    padding: 8px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:#fff;
+
+}
+.active, .menu-bar ul li:hover
+
+{
+    background:#9e7996;
+    border-radius:3px;
+
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    background:rgb(25, 115, 175);
+    height:auto;
+    width:100vw;
+    font-family:"Open Sans";
+    padding-top: 10px;
+    color:#fff;
+}
+.footer-content
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    text-align:center;
+}
+.footer-content h3{
+    font-size :0.8rem;
+    font-weight:400;
+    text-transform: capitalize;
+    line-height: 1rem;
+
+}
+.footer-content p{
+    max-width:500px;
+    margin:10px auto;
+    line-height: 10px;
+    font-size: 8px;
+}
+.socials
+{
+    list-style: none;
+    display:flex;
+    align-items:center;
+    margin:1rem 0 1rem 0;
+}
+.socials li{
+    margin:0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+
+    color: rgb(123, 33, 131);
+}
+.footer-bottom
+{
+    background:rgb(25, 115, 175);
+    width:100vw;
+    padding:0px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size:10px;
+    word-spacing: 2px;
+    text-transform:capitalize ;
+
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 100;
+}
+h1{
+    color:rgb(150, 27, 139);
+    top: 5px;
+    text-align: center;
+}
+.title
+{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.title h1{
+    color:rgb(238, 227, 227);
+    text-shadow: 2px 2px #0f0f0f;
+    font-size: 40px;
+
+}
